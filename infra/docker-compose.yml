@@ -1,0 +1,7 @@
+version: '3.9'
+
+services:
+  ingestion-api:
+    build: ../backend/ingestion
+    ports:
+      - "8000:8000"
