@@ -31,11 +31,10 @@
             Use "Monkey C: Edit Permissions" from the Visual Studio Code command
             palette to update permissions.
         -->
-        <iq:permissions/>
-        <!--
-            Use "Monkey C: Edit Languages" from the Visual Studio Code command
-            palette to edit your compatible language list.
-        -->
+        <iq:permissions>
+            <iq:uses-permission id="Sensor"/>
+        </iq:permissions>
+
         <iq:languages/>
         <!--
             Use "Monkey C: Configure Monkey Barrel" from the Visual Studio Code
